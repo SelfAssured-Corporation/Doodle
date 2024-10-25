@@ -1,16 +1,16 @@
 # Doodle Design System
 
-<img width="1454" alt="banner" src="https://github.com/omnifed/cerberus/assets/4819738/b128be81-3c24-4fc7-8811-6c9a18d26c37">
+<img width="1454" alt="banner" src="https://github.com/SelfAssured-Corporation/Doodle/assets/DoodleDesignSystemIcon.svg">
 
-![NPM Version](https://img.shields.io/npm/v/@cerberus-design/react)
+![NPM Version](https://img.shields.io/npm/v/@selfassured/react)
 [![JSR](https://jsr.io/badges/@cerberus/panda-preset)](https://jsr.io/@cerberus/panda-preset)
 ![NPM License](https://img.shields.io/npm/l/@cerberus-design/react)
 
-## Architecture
+<!-- ## Architecture
 
-<img width="1190" alt="Cerberus archictecture visual" src="https://github.com/omnifed/cerberus/assets/4819738/c706c0e7-3906-4ba7-8519-faa22e8504d4">
+<img width="1190" alt="Doodle archictecture visual" src="https://github.com/omnifed/cerberus/assets/4819738/c706c0e7-3906-4ba7-8519-faa22e8504d4"> -->
 
-**Guarding the brand integrity of the Digital University realm by creating a flexible and extensible design system.**
+**Guarding the brand integrity of the Self Assured, LifeAwesome and Arches Network realms by creating a flexible and extensible design system.**
 
 ## Repository structure
 
