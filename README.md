@@ -1,4 +1,4 @@
-# Cerberus Design System
+# Doodle Design System
 
 <img width="1454" alt="banner" src="https://github.com/omnifed/cerberus/assets/4819738/b128be81-3c24-4fc7-8811-6c9a18d26c37">
 
