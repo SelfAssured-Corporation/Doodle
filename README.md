@@ -1,6 +1,6 @@
 # Doodle Design System
 
-<img width="1454" alt="banner" src="https://raw.githubusercontent.com/SelfAssured-Corporation/Doodle/1bb7bcc59d49cb11cf575abbb0ca01a8fcf96ba8/assets/DoodleDesignSystemIcon.svg">
+<img width="454" alt="banner" src="https://raw.githubusercontent.com/SelfAssured-Corporation/Doodle/1bb7bcc59d49cb11cf575abbb0ca01a8fcf96ba8/assets/DoodleDesignSystemIcon.svg">
 
 ![NPM Version](https://img.shields.io/npm/v/@selfassured/react)
 [![JSR](https://jsr.io/badges/@cerberus/panda-preset)](https://jsr.io/@cerberus/panda-preset)
