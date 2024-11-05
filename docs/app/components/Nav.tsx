@@ -6,7 +6,12 @@ import { css, cx } from '@cerberus/styled-system/css'
 import { grid, gridItem, hstack } from '@cerberus/styled-system/patterns'
 import navData from '@/app/data/navLinks.json'
 import { LogoGithub } from '@cerberus-design/icons'
-import { Show, useThemeContext, type ColorModes } from '@cerberus-design/react'
+import {
+  DefaultThemes,
+  Show,
+  useThemeContext,
+  type ColorModes,
+} from '@cerberus-design/react'
 import { version } from '@cerberus-design/configs'
 import { AnimatingSunIcon } from './icons/AnimatingSunIcon'
 import { AnimatingMoonIcon } from './icons/AnimatingMoonIcon'
@@ -19,7 +24,7 @@ import { getTheme, injectTheme, type ThemeName } from '@/styled-system/themes'
 import { INLINE_BLOCK, PAGE_BORDER_INITIAL } from '../utils/const'
 import { getColorMode } from '../utils/colors'
 import { AnimatingSystemIcon } from './icons/AnimatingSystemIcon'
-import CerberusLogo from './cerberus-logo'
+import DoodleLogo from './doodle-logo'
 
 const navLogoContent = (
   <section
@@ -43,7 +48,7 @@ const navLogoContent = (
         _focusVisible: focusStates._focusVisible,
       })}
     >
-      <CerberusLogo />
+      <DoodleLogo />
     </Link>
   </section>
 )
@@ -87,9 +92,16 @@ export function Nav() {
 
   const handleUpdateTheme = useCallback(
     async (e: MouseEvent<HTMLButtonElement>) => {
+      const themeArray = ['cerberus', 'acheron', 'selfAssured']
       const currentTheme = e.currentTarget.value
-      const newTheme = currentTheme === 'cerberus' ? 'acheron' : 'cerberus'
-      updateTheme(newTheme)
+      const currentThemeIndex = themeArray.findIndex(
+        (index) => index === currentTheme,
+      )
+      const newTheme =
+        themeArray[
+          currentThemeIndex < themeArray.length ? currentThemeIndex + 1 : 0
+        ]
+      updateTheme(newTheme as DefaultThemes)
       const pandaTheme = await getTheme(newTheme as ThemeName)
       injectTheme(document.documentElement, pandaTheme)
     },
@@ -285,7 +297,7 @@ export function Nav() {
             <button
               className={cx(
                 css({
-                  bgColor: 'page.bg.100',
+                  bgColor: 'page.bg.400',
                   border: '1px solid',
                   borderColor: PAGE_BORDER_INITIAL,
                   fontWeight: 500,

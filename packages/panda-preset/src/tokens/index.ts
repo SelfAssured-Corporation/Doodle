@@ -3,6 +3,8 @@ import semanticColorsDark from './data/semantic-colors.cerberus-dark-mode.json' 
 import semanticColorsLight from './data/semantic-colors.cerberus-light-mode.json' with { type: 'json' }
 import acheronDarkMode from './data/semantic-colors.acheron-dark-mode.json' with { type: 'json' }
 import acheronLightMode from './data/semantic-colors.acheron-light-mode.json' with { type: 'json' }
+import selfAssuredDarkMode from './data/semantic-colors.selfassured-dark-mode.json' with { type: 'json' }
+import selfAssuredLightMode from './data/semantic-colors.selfassured-light-mode.json' with { type: 'json' }
 import type { RawThemes, SemanticToken, Token } from '../theme'
 
 /**
@@ -42,14 +44,26 @@ export const lightTokens = semanticColorsLight
 export const acheronDarkTokens = acheronDarkMode
 export const acheronLightTokens = acheronLightMode
 
+// additional themes
+export const selfAssuredDarkTokens = selfAssuredDarkMode
+export const selfAssuredLightTokens = selfAssuredLightMode
+
 export const themeTokens = {
   cerberus: {
+    dark: darkTokens,
+    light: lightTokens,
+  },
+  doodle: {
     dark: darkTokens,
     light: lightTokens,
   },
   acheron: {
     dark: acheronDarkTokens,
     light: acheronLightTokens,
+  },
+  selfAssured: {
+    dark: selfAssuredDarkTokens,
+    light: selfAssuredLightTokens,
   },
 }
 
@@ -215,7 +229,7 @@ export function formatSemanticTokenValue(
 ): SemanticToken {
   return {
     description: getNestedProperty(
-      themeTokens.cerberus,
+      themeTokens.doodle,
       `dark.${path}.$description`,
     ),
     value: getThemeTokenByPath(path, theme),

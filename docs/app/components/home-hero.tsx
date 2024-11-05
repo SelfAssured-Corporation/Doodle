@@ -1,7 +1,7 @@
 import { css } from '@cerberus/styled-system/css'
 import Link from 'next/link'
 import { button } from '@cerberus/styled-system/recipes'
-import CerberusLogo from './cerberus-logo'
+import DoodleLogo from './doodle-logo'
 import { vstack } from '@cerberus-design/styled-system/patterns'
 import { grid, gridItem } from '@cerberus/styled-system/patterns'
 import { Tag } from '@cerberus-design/react'
@@ -56,14 +56,14 @@ export default function HomeHero() {
               },
             })}
           >
-            Protect your brand with{' '}
+            Your brand has a best friend with{' '}
             <span
               className={css({
                 display: 'inline-block',
                 color: 'danger.text.200',
               })}
             >
-              Cerberus
+              DoodleUI
             </span>
           </h1>
 
@@ -114,7 +114,7 @@ export default function HomeHero() {
             w: '1/2',
           })}
         >
-          <CerberusLogo />
+          <DoodleLogo />
         </span>
       </div>
     </div>

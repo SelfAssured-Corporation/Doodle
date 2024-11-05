@@ -78,7 +78,7 @@ export default async function RootLayout(props: PropsWithChildren<RootProps>) {
         })}
       >
         <ThemeProvider
-          defaultTheme={defaultThemeName}
+          defaultTheme={defaultThemeName as DefaultThemes}
           defaultColorMode={defaultColorModeName}
           updateTheme={handleUpdateTheme}
           updateMode={handleUpdateMode}

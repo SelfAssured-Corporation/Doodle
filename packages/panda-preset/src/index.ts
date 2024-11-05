@@ -10,13 +10,18 @@ import { utilities } from './utilities'
 import { patterns } from './patterns'
 import { baseTheme, type RawThemes } from './theme'
 import { acheronTheme } from './themes/acheron'
+import { selfAssuredTheme } from './themes/selfassured'
 
 /**
  * This module contains the Cerberus preset and configuration options.
  * @module
  **/
 
-export const supportedThemes: RawThemes[] = ['cerberus', 'acheron']
+export const supportedThemes: RawThemes[] = [
+  'cerberus',
+  'acheron',
+  'selfAssured',
+]
 
 export const cerberusPreset: Preset = definePreset({
   name: 'cerberus',
@@ -33,11 +38,12 @@ export const cerberusPreset: Preset = definePreset({
   themes: {
     cerberus: baseTheme,
     acheron: acheronTheme,
+    selfassured: selfAssuredTheme,
   },
 
   // opt-into additional theme variants
   staticCss: {
-    themes: ['cerberus', 'acheron'],
+    themes: ['cerberus', 'acheron', 'selfAssured'],
   },
 })
 
@@ -68,5 +74,6 @@ export * from './recipes/shared/states'
 
 export * from './theme/semantic-tokens/index'
 export * as acheronTheme from './themes/acheron/semantic-tokens/index'
+export * as selfAssuredTheme from './themes/selfassured/semantic-tokens/index'
 
 export * from './tokens'
