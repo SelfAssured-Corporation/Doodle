@@ -1,5 +1,5 @@
 /* eslint-disable */
-export type ThemeName = 'cerberus' | 'acheron'
+export type ThemeName = 'cerberus' | 'acheron' | 'selfassured'
 export type ThemeByName = {
   cerberus: {
     id: string
@@ -9,6 +9,11 @@ export type ThemeByName = {
   acheron: {
     id: string
     name: 'acheron'
+    css: string
+  }
+  selfassured: {
+    id: string
+    name: 'selfassured'
     css: string
   }
 }
