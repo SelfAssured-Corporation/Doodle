@@ -8,7 +8,7 @@ interface IconDetailsPageProps {
   }
 }
 
-export default function IconDetailsPage(props: IconDetailsPageProps) {
+export default function IconDetailsPage(props: Readonly<IconDetailsPageProps>) {
   return (
     <>
       <PageMainContent>
