@@ -1,6 +1,6 @@
 # Panda Preset
 
-This is the official [Panda-CSS](https://panda-css.com/) preset for the Cerberus design system.
+This is the official [Panda-CSS](https://panda-css.com/) preset for the Doodle UI design system.
 
 ## Installation
 
