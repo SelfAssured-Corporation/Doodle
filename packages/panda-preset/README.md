@@ -5,7 +5,7 @@ This is the official [Panda-CSS](https://panda-css.com/) preset for the Cerberus
 ## Installation
 
 ```bash
-pnpm add -D @cerberus-design/panda-preset
+pnpm add -D @doodleui/panda-preset
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ pnpm add -D @cerberus-design/panda-preset
 ```typescript
 import { defineConfig } from '@pandacss/dev'
 import pandaPreset from '@pandacss/preset-panda'
-import { cerberusPreset, cerberusConfig } from '@cerberus-design/panda-preset'
+import { cerberusPreset, cerberusConfig } from '@doodleui/panda-preset'
 
 export default defineConfig({
   ...cerberusConfig,
@@ -51,4 +51,4 @@ const poppins = Poppins({
 
 ---
 
-_Copyright (c) 2024 Digital University, All Rights Reserved_
+_Copyright (c) 2024 Life Awesome Apps, All Rights Reserved_

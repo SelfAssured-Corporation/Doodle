@@ -1,18 +1,18 @@
 # Icons
 
-This is the official icon library for the Cerberus design system for React.
+This is the official icon library for the Doodle Design System for React.
 
 ## Installation
 
 ```bash
-pnpm add @cerberus-design/icons
+pnpm add @doodleui/icons
 ```
 
 ## Usage
 
 ```typescript
-import { Add } from '@cerberus-design/icons';
-import { IconButton, createIconButtonProps } from '@cerberus-design/react';
+import { Add } from '@doodleui/icons';
+import { IconButton, createIconButtonProps } from '@doodleui/react';
 
 // An optional helper to manage a11y for the IconButton
 const iconBtnProps = createIconButtonProps({
@@ -33,8 +33,8 @@ function App() {
 ## Usage without the React library
 
 ```typescript
-import { Add } from '@cerberus-design/icons';
-import { iconButton } from '@cerberus-design/styled-system/recipes';
+import { Add } from '@doodleui/icons';
+import { iconButton } from '@doodleui/styled-system/recipes';
 
 function App() {
   return (
@@ -47,4 +47,4 @@ function App() {
 
 ---
 
-_Copyright (c) 2024 Digital University, All Rights Reserved_
+_Copyright (c) 2024 Life Awesome Apps, All Rights Reserved_
