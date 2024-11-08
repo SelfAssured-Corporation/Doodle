@@ -55,8 +55,12 @@ export type GradientUsage = 'start' | 'end' | 'text'
 /**
  * The Cerberus theme of a color.
  */
-export type Themes = 'cerberusTheme' | 'acheronTheme' | 'selfAssuredTheme'
-export type RawThemes = 'cerberus' | 'acheron' | 'selfAssured'
+export type Themes =
+  | 'cerberusTheme'
+  | 'archesTheme'
+  | 'selfAssuredTheme'
+  | 'lifeAwesomeTheme'
+export type RawThemes = 'doodleui' | 'arches' | 'selfAssured' | 'lifeAwesome'
 
 /**
  * The mode option of a Cerberus theme.

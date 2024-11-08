@@ -2,14 +2,14 @@ import type { Prominence, SemanticToken } from '../../../theme/semantic-tokens'
 import { formatSemanticTokenValue } from '../../../tokens'
 
 /**
- * This module is a collection of success tokens that are used to generate the theme.
- * @module successTokens
+ * This module is a collection of warning tokens that are used to generate the theme.
+ * @module warningTokens
  */
 
 type Prominences = Exclude<Prominence, 300>
 
-export interface ContractSuccessTokens {
-  readonly success: {
+export interface ContractWarningTokens {
+  readonly warning: {
     readonly border: {
       readonly initial: object
     }
@@ -34,8 +34,8 @@ export interface ContractSuccessTokens {
   }
 }
 
-export const contractSuccessTokens: ContractSuccessTokens = {
-  success: {
+export const contractWarningTokens: ContractWarningTokens = {
+  warning: {
     border: {
       initial: {},
     },
@@ -68,8 +68,8 @@ export const contractSuccessTokens: ContractSuccessTokens = {
   },
 }
 
-export interface SuccessTokens {
-  readonly success: {
+export interface WarningTokens {
+  readonly warning: {
     readonly border: {
       readonly initial: SemanticToken
     }
@@ -94,51 +94,36 @@ export interface SuccessTokens {
   }
 }
 
-export const successTokens: SuccessTokens = {
-  success: {
+export const warningTokens: WarningTokens = {
+  warning: {
     border: {
-      initial: formatSemanticTokenValue(
-        'border.success.initial',
-        'selfAssured',
-      ),
+      initial: formatSemanticTokenValue('border.warning.initial', 'arches'),
     },
 
     bg: {
-      initial: formatSemanticTokenValue(
-        'background.success.initial',
-        'selfAssured',
-      ),
-      hover: formatSemanticTokenValue(
-        'background.success.hover',
-        'selfAssured',
-      ),
-      active: formatSemanticTokenValue(
-        'background.success.active',
-        'selfAssured',
-      ),
+      initial: formatSemanticTokenValue('background.warning.initial', 'arches'),
+      hover: formatSemanticTokenValue('background.warning.hover', 'arches'),
+      active: formatSemanticTokenValue('background.warning.active', 'arches'),
     },
 
     ghost: {
-      initial: formatSemanticTokenValue('ghost.success.initial', 'selfAssured'),
-      hover: formatSemanticTokenValue('ghost.success.hover', 'selfAssured'),
-      active: formatSemanticTokenValue('ghost.success.active', 'selfAssured'),
+      initial: formatSemanticTokenValue('ghost.warning.initial', 'arches'),
+      hover: formatSemanticTokenValue('ghost.warning.hover', 'arches'),
+      active: formatSemanticTokenValue('ghost.warning.active', 'arches'),
     },
 
     surface: {
-      initial: formatSemanticTokenValue(
-        'surface.success.initial',
-        'selfAssured',
-      ),
-      100: formatSemanticTokenValue('surface.success.100', 'selfAssured'),
-      200: formatSemanticTokenValue('surface.success.200', 'selfAssured'),
+      initial: formatSemanticTokenValue('surface.warning.initial', 'arches'),
+      100: formatSemanticTokenValue('surface.warning.100', 'arches'),
+      200: formatSemanticTokenValue('surface.warning.200', 'arches'),
     },
 
     text: {
-      initial: formatSemanticTokenValue('text.success.initial', 'selfAssured'),
-      100: formatSemanticTokenValue('text.success.100', 'selfAssured'),
-      200: formatSemanticTokenValue('text.success.200', 'selfAssured'),
-      inverse: formatSemanticTokenValue('text.success.inverse', 'selfAssured'),
-      static: formatSemanticTokenValue('text.success.static', 'selfAssured'),
+      initial: formatSemanticTokenValue('text.warning.initial', 'arches'),
+      100: formatSemanticTokenValue('text.warning.100', 'arches'),
+      200: formatSemanticTokenValue('text.warning.200', 'arches'),
+      inverse: formatSemanticTokenValue('text.warning.inverse', 'arches'),
+      static: formatSemanticTokenValue('text.warning.static', 'arches'),
     },
   },
 }

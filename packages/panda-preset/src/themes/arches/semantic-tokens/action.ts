@@ -97,44 +97,41 @@ export interface ActionTokens {
 export const actionTokens: ActionTokens = {
   action: {
     bg: {
-      initial: formatSemanticTokenValue('background.action.initial', 'acheron'),
-      hover: formatSemanticTokenValue('background.action.hover', 'acheron'),
-      active: formatSemanticTokenValue('background.action.active', 'acheron'),
+      initial: formatSemanticTokenValue('background.action.initial', 'arches'),
+      hover: formatSemanticTokenValue('background.action.hover', 'arches'),
+      active: formatSemanticTokenValue('background.action.active', 'arches'),
     },
 
     border: {
-      initial: formatSemanticTokenValue('border.action.initial', 'acheron'),
-      100: formatSemanticTokenValue('border.action.100', 'acheron'),
-      focus: formatSemanticTokenValue('border.action.focus', 'acheron'),
+      initial: formatSemanticTokenValue('border.action.initial', 'arches'),
+      100: formatSemanticTokenValue('border.action.100', 'arches'),
+      focus: formatSemanticTokenValue('border.action.focus', 'arches'),
     },
 
     ghost: {
-      initial: formatSemanticTokenValue('ghost.action.initial', 'acheron'),
-      hover: formatSemanticTokenValue('ghost.action.hover', 'acheron'),
-      active: formatSemanticTokenValue('ghost.action.active', 'acheron'),
+      initial: formatSemanticTokenValue('ghost.action.initial', 'arches'),
+      hover: formatSemanticTokenValue('ghost.action.hover', 'arches'),
+      active: formatSemanticTokenValue('ghost.action.active', 'arches'),
     },
 
     navigation: {
       initial: formatSemanticTokenValue(
         'text.action.navigation.initial',
-        'acheron',
+        'arches',
       ),
-      hover: formatSemanticTokenValue(
-        'text.action.navigation.hover',
-        'acheron',
-      ),
+      hover: formatSemanticTokenValue('text.action.navigation.hover', 'arches'),
       visited: formatSemanticTokenValue(
         'text.action.navigation.visited',
-        'acheron',
+        'arches',
       ),
     },
 
     text: {
-      initial: formatSemanticTokenValue('text.action.initial', 'acheron'),
-      100: formatSemanticTokenValue('text.action.100', 'acheron'),
-      200: formatSemanticTokenValue('text.action.200', 'acheron'),
-      inverse: formatSemanticTokenValue('text.action.inverse', 'acheron'),
-      static: formatSemanticTokenValue('text.action.static', 'acheron'),
+      initial: formatSemanticTokenValue('text.action.initial', 'arches'),
+      100: formatSemanticTokenValue('text.action.100', 'arches'),
+      200: formatSemanticTokenValue('text.action.200', 'arches'),
+      inverse: formatSemanticTokenValue('text.action.inverse', 'arches'),
+      static: formatSemanticTokenValue('text.action.static', 'arches'),
     },
   },
 }

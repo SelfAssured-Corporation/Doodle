@@ -9,8 +9,9 @@ import { conditions } from './conditions'
 import { utilities } from './utilities'
 import { patterns } from './patterns'
 import { baseTheme, type RawThemes } from './theme'
-import { acheronTheme } from './themes/acheron'
+import { archesTheme } from './themes/arches'
 import { selfAssuredTheme } from './themes/selfassured'
+import { lifeAwesomeTheme } from './themes/lifeawesome'
 
 /**
  * This module contains the Cerberus preset and configuration options.
@@ -18,9 +19,10 @@ import { selfAssuredTheme } from './themes/selfassured'
  **/
 
 export const supportedThemes: RawThemes[] = [
-  'cerberus',
-  'acheron',
+  'doodleui',
+  'arches',
   'selfAssured',
+  'lifeAwesome',
 ]
 
 export const cerberusPreset: Preset = definePreset({
@@ -37,13 +39,14 @@ export const cerberusPreset: Preset = definePreset({
   // optional themes
   themes: {
     cerberus: baseTheme,
-    acheron: acheronTheme,
+    arches: archesTheme,
     selfassured: selfAssuredTheme,
+    lifeawesome: lifeAwesomeTheme,
   },
 
   // opt-into additional theme variants
   staticCss: {
-    themes: ['cerberus', 'acheron', 'selfAssured'],
+    themes: ['cerberus', 'arches', 'selfAssured', 'lifeAwesome'],
   },
 })
 
@@ -73,7 +76,8 @@ export * from './recipes/shared/palettes'
 export * from './recipes/shared/states'
 
 export * from './theme/semantic-tokens/index'
-export * as acheronTheme from './themes/acheron/semantic-tokens/index'
+export * as acheronTheme from './themes/arches/semantic-tokens/index'
 export * as selfAssuredTheme from './themes/selfassured/semantic-tokens/index'
+export * as lifeAwesomeTheme from './themes/lifeawesome/semantic-tokens/index'
 
 export * from './tokens'

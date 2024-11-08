@@ -94,55 +94,55 @@ export interface DataVizTokens {
 export const dataVizTokens: DataVizTokens = {
   dataViz: {
     diverging: {
-      50: formatSemanticTokenValue('data-viz.diverging.050', 'acheron'),
-      100: formatSemanticTokenValue('data-viz.diverging.100', 'acheron'),
-      200: formatSemanticTokenValue('data-viz.diverging.200', 'acheron'),
-      300: formatSemanticTokenValue('data-viz.diverging.300', 'acheron'),
-      400: formatSemanticTokenValue('data-viz.diverging.400', 'acheron'),
-      500: formatSemanticTokenValue('data-viz.diverging.500', 'acheron'),
-      600: formatSemanticTokenValue('data-viz.diverging.600', 'acheron'),
-      700: formatSemanticTokenValue('data-viz.diverging.700', 'acheron'),
-      800: formatSemanticTokenValue('data-viz.diverging.800', 'acheron'),
-      900: formatSemanticTokenValue('data-viz.diverging.900', 'acheron'),
+      50: formatSemanticTokenValue('data-viz.diverging.050', 'lifeAwesome'),
+      100: formatSemanticTokenValue('data-viz.diverging.100', 'lifeAwesome'),
+      200: formatSemanticTokenValue('data-viz.diverging.200', 'lifeAwesome'),
+      300: formatSemanticTokenValue('data-viz.diverging.300', 'lifeAwesome'),
+      400: formatSemanticTokenValue('data-viz.diverging.400', 'lifeAwesome'),
+      500: formatSemanticTokenValue('data-viz.diverging.500', 'lifeAwesome'),
+      600: formatSemanticTokenValue('data-viz.diverging.600', 'lifeAwesome'),
+      700: formatSemanticTokenValue('data-viz.diverging.700', 'lifeAwesome'),
+      800: formatSemanticTokenValue('data-viz.diverging.800', 'lifeAwesome'),
+      900: formatSemanticTokenValue('data-viz.diverging.900', 'lifeAwesome'),
     },
 
     sequential: {
-      100: formatSemanticTokenValue('data-viz.sequential.100', 'acheron'),
-      200: formatSemanticTokenValue('data-viz.sequential.200', 'acheron'),
-      300: formatSemanticTokenValue('data-viz.sequential.300', 'acheron'),
-      400: formatSemanticTokenValue('data-viz.sequential.400', 'acheron'),
-      500: formatSemanticTokenValue('data-viz.sequential.500', 'acheron'),
-      600: formatSemanticTokenValue('data-viz.sequential.600', 'acheron'),
+      100: formatSemanticTokenValue('data-viz.sequential.100', 'lifeAwesome'),
+      200: formatSemanticTokenValue('data-viz.sequential.200', 'lifeAwesome'),
+      300: formatSemanticTokenValue('data-viz.sequential.300', 'lifeAwesome'),
+      400: formatSemanticTokenValue('data-viz.sequential.400', 'lifeAwesome'),
+      500: formatSemanticTokenValue('data-viz.sequential.500', 'lifeAwesome'),
+      600: formatSemanticTokenValue('data-viz.sequential.600', 'lifeAwesome'),
     },
 
     qualitative: {
       100: formatSemanticTokenValue(
         'data-viz.qualitative-colors.100',
-        'acheron',
+        'lifeAwesome',
       ),
       200: formatSemanticTokenValue(
         'data-viz.qualitative-colors.200',
-        'acheron',
+        'lifeAwesome',
       ),
       300: formatSemanticTokenValue(
         'data-viz.qualitative-colors.300',
-        'acheron',
+        'lifeAwesome',
       ),
       400: formatSemanticTokenValue(
         'data-viz.qualitative-colors.400',
-        'acheron',
+        'lifeAwesome',
       ),
       500: formatSemanticTokenValue(
         'data-viz.qualitative-colors.500',
-        'acheron',
+        'lifeAwesome',
       ),
       600: formatSemanticTokenValue(
         'data-viz.qualitative-colors.600',
-        'acheron',
+        'lifeAwesome',
       ),
       700: formatSemanticTokenValue(
         'data-viz.qualitative-colors.700',
-        'acheron',
+        'lifeAwesome',
       ),
     },
   },

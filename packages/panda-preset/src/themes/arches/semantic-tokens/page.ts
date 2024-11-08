@@ -96,7 +96,7 @@ export const pageTokens: PageTokens = {
     backdrop: {
       initial: {
         description:
-          themeTokens.cerberus.dark.backdrop.page.initial.$description,
+          themeTokens.doodleui.dark.backdrop.page.initial.$description,
         value: {
           // Figma converts the rgba to a HEX value which removes the opacity
           base: 'rgba(27, 26, 25, 0.50)',
@@ -107,31 +107,31 @@ export const pageTokens: PageTokens = {
     },
 
     bg: {
-      initial: formatSemanticTokenValue('background.page.initial', 'acheron'),
-      100: formatSemanticTokenValue('background.page.100', 'acheron'),
-      200: formatSemanticTokenValue('background.page.200', 'acheron'),
+      initial: formatSemanticTokenValue('background.page.initial', 'arches'),
+      100: formatSemanticTokenValue('background.page.100', 'arches'),
+      200: formatSemanticTokenValue('background.page.200', 'arches'),
     },
 
     border: {
-      initial: formatSemanticTokenValue('border.page.initial', 'acheron'),
-      100: formatSemanticTokenValue('border.page.100', 'acheron'),
-      200: formatSemanticTokenValue('border.page.200', 'acheron'),
+      initial: formatSemanticTokenValue('border.page.initial', 'arches'),
+      100: formatSemanticTokenValue('border.page.100', 'arches'),
+      200: formatSemanticTokenValue('border.page.200', 'arches'),
     },
 
     surface: {
-      initial: formatSemanticTokenValue('surface.page.initial', 'acheron'),
-      100: formatSemanticTokenValue('surface.page.100', 'acheron'),
-      200: formatSemanticTokenValue('surface.page.200', 'acheron'),
-      300: formatSemanticTokenValue('surface.page.300', 'acheron'),
-      inverse: formatSemanticTokenValue('surface.page.inverse', 'acheron'),
+      initial: formatSemanticTokenValue('surface.page.initial', 'arches'),
+      100: formatSemanticTokenValue('surface.page.100', 'arches'),
+      200: formatSemanticTokenValue('surface.page.200', 'arches'),
+      300: formatSemanticTokenValue('surface.page.300', 'arches'),
+      inverse: formatSemanticTokenValue('surface.page.inverse', 'arches'),
     },
 
     text: {
-      initial: formatSemanticTokenValue('text.page.initial', 'acheron'),
-      100: formatSemanticTokenValue('text.page.100', 'acheron'),
-      200: formatSemanticTokenValue('text.page.200', 'acheron'),
-      300: formatSemanticTokenValue('text.page.300', 'acheron'),
-      inverse: formatSemanticTokenValue('text.page.inverse', 'acheron'),
+      initial: formatSemanticTokenValue('text.page.initial', 'arches'),
+      100: formatSemanticTokenValue('text.page.100', 'arches'),
+      200: formatSemanticTokenValue('text.page.200', 'arches'),
+      300: formatSemanticTokenValue('text.page.300', 'arches'),
+      inverse: formatSemanticTokenValue('text.page.inverse', 'arches'),
     },
   },
 }

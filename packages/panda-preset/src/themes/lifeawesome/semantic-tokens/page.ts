@@ -96,7 +96,7 @@ export const pageTokens: PageTokens = {
     backdrop: {
       initial: {
         description:
-          themeTokens.doodleui.dark.backdrop.page.initial.$description,
+          themeTokens.cerberus.dark.backdrop.page.initial.$description,
         value: {
           // Figma converts the rgba to a HEX value which removes the opacity
           base: 'rgba(27, 26, 25, 0.50)',
@@ -109,32 +109,32 @@ export const pageTokens: PageTokens = {
     bg: {
       initial: formatSemanticTokenValue(
         'background.page.initial',
-        'selfAssured',
+        'lifeAwesome',
       ),
-      100: formatSemanticTokenValue('background.page.100', 'selfAssured'),
-      200: formatSemanticTokenValue('background.page.200', 'selfAssured'),
+      100: formatSemanticTokenValue('background.page.100', 'lifeAwesome'),
+      200: formatSemanticTokenValue('background.page.200', 'lifeAwesome'),
     },
 
     border: {
-      initial: formatSemanticTokenValue('border.page.initial', 'selfAssured'),
-      100: formatSemanticTokenValue('border.page.100', 'selfAssured'),
-      200: formatSemanticTokenValue('border.page.200', 'selfAssured'),
+      initial: formatSemanticTokenValue('border.page.initial', 'lifeAwesome'),
+      100: formatSemanticTokenValue('border.page.100', 'lifeAwesome'),
+      200: formatSemanticTokenValue('border.page.200', 'lifeAwesome'),
     },
 
     surface: {
-      initial: formatSemanticTokenValue('surface.page.initial', 'selfAssured'),
-      100: formatSemanticTokenValue('surface.page.100', 'selfAssured'),
-      200: formatSemanticTokenValue('surface.page.200', 'selfAssured'),
-      300: formatSemanticTokenValue('surface.page.300', 'selfAssured'),
-      inverse: formatSemanticTokenValue('surface.page.inverse', 'selfAssured'),
+      initial: formatSemanticTokenValue('surface.page.initial', 'lifeAwesome'),
+      100: formatSemanticTokenValue('surface.page.100', 'lifeAwesome'),
+      200: formatSemanticTokenValue('surface.page.200', 'lifeAwesome'),
+      300: formatSemanticTokenValue('surface.page.300', 'lifeAwesome'),
+      inverse: formatSemanticTokenValue('surface.page.inverse', 'lifeAwesome'),
     },
 
     text: {
-      initial: formatSemanticTokenValue('text.page.initial', 'selfAssured'),
-      100: formatSemanticTokenValue('text.page.100', 'selfAssured'),
-      200: formatSemanticTokenValue('text.page.200', 'selfAssured'),
-      300: formatSemanticTokenValue('text.page.300', 'selfAssured'),
-      inverse: formatSemanticTokenValue('text.page.inverse', 'selfAssured'),
+      initial: formatSemanticTokenValue('text.page.initial', 'lifeAwesome'),
+      100: formatSemanticTokenValue('text.page.100', 'lifeAwesome'),
+      200: formatSemanticTokenValue('text.page.200', 'lifeAwesome'),
+      300: formatSemanticTokenValue('text.page.300', 'lifeAwesome'),
+      inverse: formatSemanticTokenValue('text.page.inverse', 'lifeAwesome'),
     },
   },
 }

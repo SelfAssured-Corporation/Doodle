@@ -97,48 +97,33 @@ export interface SuccessTokens {
 export const successTokens: SuccessTokens = {
   success: {
     border: {
-      initial: formatSemanticTokenValue(
-        'border.success.initial',
-        'selfAssured',
-      ),
+      initial: formatSemanticTokenValue('border.success.initial', 'arches'),
     },
 
     bg: {
-      initial: formatSemanticTokenValue(
-        'background.success.initial',
-        'selfAssured',
-      ),
-      hover: formatSemanticTokenValue(
-        'background.success.hover',
-        'selfAssured',
-      ),
-      active: formatSemanticTokenValue(
-        'background.success.active',
-        'selfAssured',
-      ),
+      initial: formatSemanticTokenValue('background.success.initial', 'arches'),
+      hover: formatSemanticTokenValue('background.success.hover', 'arches'),
+      active: formatSemanticTokenValue('background.success.active', 'arches'),
     },
 
     ghost: {
-      initial: formatSemanticTokenValue('ghost.success.initial', 'selfAssured'),
-      hover: formatSemanticTokenValue('ghost.success.hover', 'selfAssured'),
-      active: formatSemanticTokenValue('ghost.success.active', 'selfAssured'),
+      initial: formatSemanticTokenValue('ghost.success.initial', 'arches'),
+      hover: formatSemanticTokenValue('ghost.success.hover', 'arches'),
+      active: formatSemanticTokenValue('ghost.success.active', 'arches'),
     },
 
     surface: {
-      initial: formatSemanticTokenValue(
-        'surface.success.initial',
-        'selfAssured',
-      ),
-      100: formatSemanticTokenValue('surface.success.100', 'selfAssured'),
-      200: formatSemanticTokenValue('surface.success.200', 'selfAssured'),
+      initial: formatSemanticTokenValue('surface.success.initial', 'arches'),
+      100: formatSemanticTokenValue('surface.success.100', 'arches'),
+      200: formatSemanticTokenValue('surface.success.200', 'arches'),
     },
 
     text: {
-      initial: formatSemanticTokenValue('text.success.initial', 'selfAssured'),
-      100: formatSemanticTokenValue('text.success.100', 'selfAssured'),
-      200: formatSemanticTokenValue('text.success.200', 'selfAssured'),
-      inverse: formatSemanticTokenValue('text.success.inverse', 'selfAssured'),
-      static: formatSemanticTokenValue('text.success.static', 'selfAssured'),
+      initial: formatSemanticTokenValue('text.success.initial', 'arches'),
+      100: formatSemanticTokenValue('text.success.100', 'arches'),
+      200: formatSemanticTokenValue('text.success.200', 'arches'),
+      inverse: formatSemanticTokenValue('text.success.inverse', 'arches'),
+      static: formatSemanticTokenValue('text.success.static', 'arches'),
     },
   },
 }

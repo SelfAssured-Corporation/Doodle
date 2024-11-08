@@ -102,40 +102,40 @@ export const dangerTokens: DangerTokens = {
     bg: {
       initial: formatSemanticTokenValue(
         'background.danger.initial',
-        'selfAssured',
+        'lifeAwesome',
       ),
-      hover: formatSemanticTokenValue('background.danger.hover', 'selfAssured'),
+      hover: formatSemanticTokenValue('background.danger.hover', 'lifeAwesome'),
       active: formatSemanticTokenValue(
         'background.danger.active',
-        'selfAssured',
+        'lifeAwesome',
       ),
     },
 
     border: {
-      initial: formatSemanticTokenValue('border.danger.initial', 'selfAssured'),
+      initial: formatSemanticTokenValue('border.danger.initial', 'lifeAwesome'),
     },
 
     ghost: {
-      initial: formatSemanticTokenValue('ghost.danger.initial', 'selfAssured'),
-      hover: formatSemanticTokenValue('ghost.danger.hover', 'selfAssured'),
-      active: formatSemanticTokenValue('ghost.danger.active', 'selfAssured'),
+      initial: formatSemanticTokenValue('ghost.danger.initial', 'lifeAwesome'),
+      hover: formatSemanticTokenValue('ghost.danger.hover', 'lifeAwesome'),
+      active: formatSemanticTokenValue('ghost.danger.active', 'lifeAwesome'),
     },
 
     surface: {
       initial: formatSemanticTokenValue(
         'surface.danger.initial',
-        'selfAssured',
+        'lifeAwesome',
       ),
-      100: formatSemanticTokenValue('surface.danger.100', 'selfAssured'),
-      200: formatSemanticTokenValue('surface.danger.200', 'selfAssured'),
+      100: formatSemanticTokenValue('surface.danger.100', 'lifeAwesome'),
+      200: formatSemanticTokenValue('surface.danger.200', 'lifeAwesome'),
     },
 
     text: {
-      initial: formatSemanticTokenValue('text.danger.initial', 'selfAssured'),
-      100: formatSemanticTokenValue('text.danger.100', 'selfAssured'),
-      200: formatSemanticTokenValue('text.danger.200', 'selfAssured'),
-      inverse: formatSemanticTokenValue('text.danger.inverse', 'selfAssured'),
-      static: formatSemanticTokenValue('text.danger.static', 'selfAssured'),
+      initial: formatSemanticTokenValue('text.danger.initial', 'lifeAwesome'),
+      100: formatSemanticTokenValue('text.danger.100', 'lifeAwesome'),
+      200: formatSemanticTokenValue('text.danger.200', 'lifeAwesome'),
+      inverse: formatSemanticTokenValue('text.danger.inverse', 'lifeAwesome'),
+      static: formatSemanticTokenValue('text.danger.static', 'lifeAwesome'),
     },
   },
 }

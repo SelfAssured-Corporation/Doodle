@@ -97,36 +97,48 @@ export interface WarningTokens {
 export const warningTokens: WarningTokens = {
   warning: {
     border: {
-      initial: formatSemanticTokenValue('border.warning.initial', 'acheron'),
+      initial: formatSemanticTokenValue(
+        'border.warning.initial',
+        'lifeAwesome',
+      ),
     },
 
     bg: {
       initial: formatSemanticTokenValue(
         'background.warning.initial',
-        'acheron',
+        'lifeAwesome',
       ),
-      hover: formatSemanticTokenValue('background.warning.hover', 'acheron'),
-      active: formatSemanticTokenValue('background.warning.active', 'acheron'),
+      hover: formatSemanticTokenValue(
+        'background.warning.hover',
+        'lifeAwesome',
+      ),
+      active: formatSemanticTokenValue(
+        'background.warning.active',
+        'lifeAwesome',
+      ),
     },
 
     ghost: {
-      initial: formatSemanticTokenValue('ghost.warning.initial', 'acheron'),
-      hover: formatSemanticTokenValue('ghost.warning.hover', 'acheron'),
-      active: formatSemanticTokenValue('ghost.warning.active', 'acheron'),
+      initial: formatSemanticTokenValue('ghost.warning.initial', 'lifeAwesome'),
+      hover: formatSemanticTokenValue('ghost.warning.hover', 'lifeAwesome'),
+      active: formatSemanticTokenValue('ghost.warning.active', 'lifeAwesome'),
     },
 
     surface: {
-      initial: formatSemanticTokenValue('surface.warning.initial', 'acheron'),
-      100: formatSemanticTokenValue('surface.warning.100', 'acheron'),
-      200: formatSemanticTokenValue('surface.warning.200', 'acheron'),
+      initial: formatSemanticTokenValue(
+        'surface.warning.initial',
+        'lifeAwesome',
+      ),
+      100: formatSemanticTokenValue('surface.warning.100', 'lifeAwesome'),
+      200: formatSemanticTokenValue('surface.warning.200', 'lifeAwesome'),
     },
 
     text: {
-      initial: formatSemanticTokenValue('text.warning.initial', 'acheron'),
-      100: formatSemanticTokenValue('text.warning.100', 'acheron'),
-      200: formatSemanticTokenValue('text.warning.200', 'acheron'),
-      inverse: formatSemanticTokenValue('text.warning.inverse', 'acheron'),
-      static: formatSemanticTokenValue('text.warning.static', 'acheron'),
+      initial: formatSemanticTokenValue('text.warning.initial', 'lifeAwesome'),
+      100: formatSemanticTokenValue('text.warning.100', 'lifeAwesome'),
+      200: formatSemanticTokenValue('text.warning.200', 'lifeAwesome'),
+      inverse: formatSemanticTokenValue('text.warning.inverse', 'lifeAwesome'),
+      static: formatSemanticTokenValue('text.warning.static', 'lifeAwesome'),
     },
   },
 }

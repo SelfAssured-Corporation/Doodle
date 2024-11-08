@@ -99,35 +99,35 @@ export interface InfoTokens {
 export const infoTokens: InfoTokens = {
   info: {
     border: {
-      initial: formatSemanticTokenValue('border.info.initial', 'selfAssured'),
+      initial: formatSemanticTokenValue('border.info.initial', 'lifeAwesome'),
     },
 
     bg: {
       initial: formatSemanticTokenValue(
         'background.info.initial',
-        'selfAssured',
+        'lifeAwesome',
       ),
-      hover: formatSemanticTokenValue('background.info.hover', 'selfAssured'),
-      active: formatSemanticTokenValue('background.info.active', 'selfAssured'),
+      hover: formatSemanticTokenValue('background.info.hover', 'lifeAwesome'),
+      active: formatSemanticTokenValue('background.info.active', 'lifeAwesome'),
     },
 
     ghost: {
-      initial: formatSemanticTokenValue('ghost.info.initial', 'selfAssured'),
-      hover: formatSemanticTokenValue('ghost.info.hover', 'selfAssured'),
-      active: formatSemanticTokenValue('ghost.info.active', 'selfAssured'),
+      initial: formatSemanticTokenValue('ghost.info.initial', 'lifeAwesome'),
+      hover: formatSemanticTokenValue('ghost.info.hover', 'lifeAwesome'),
+      active: formatSemanticTokenValue('ghost.info.active', 'lifeAwesome'),
     },
 
     surface: {
-      initial: formatSemanticTokenValue('surface.info.initial', 'selfAssured'),
-      100: formatSemanticTokenValue('surface.info.100', 'selfAssured'),
-      200: formatSemanticTokenValue('surface.info.200', 'selfAssured'),
+      initial: formatSemanticTokenValue('surface.info.initial', 'lifeAwesome'),
+      100: formatSemanticTokenValue('surface.info.100', 'lifeAwesome'),
+      200: formatSemanticTokenValue('surface.info.200', 'lifeAwesome'),
     },
 
     text: {
-      initial: formatSemanticTokenValue('text.info.initial', 'selfAssured'),
-      100: formatSemanticTokenValue('text.info.100', 'selfAssured'),
-      200: formatSemanticTokenValue('text.info.200', 'selfAssured'),
-      static: formatSemanticTokenValue('text.info.static', 'selfAssured'),
+      initial: formatSemanticTokenValue('text.info.initial', 'lifeAwesome'),
+      100: formatSemanticTokenValue('text.info.100', 'lifeAwesome'),
+      200: formatSemanticTokenValue('text.info.200', 'lifeAwesome'),
+      static: formatSemanticTokenValue('text.info.static', 'lifeAwesome'),
     },
   },
 }

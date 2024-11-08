@@ -1,5 +1,5 @@
 /**
- * This module is a collection of gradient tokens palette for the selfAssured theme.
+ * This module is a collection of gradient tokens palette for the lifeAwesome theme.
  * @module gradientTokens
  */
 
@@ -87,7 +87,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.charon-light.text',
-          'selfAssured',
+          'lifeAwesome',
         ),
       },
     },
@@ -95,7 +95,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.charon-dark.text',
-          'selfAssured',
+          'lifeAwesome',
         ),
       },
     },
@@ -103,7 +103,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.nyx-light.text',
-          'selfAssured',
+          'lifeAwesome',
         ),
       },
     },
@@ -111,7 +111,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.nyx-dark.text',
-          'selfAssured',
+          'lifeAwesome',
         ),
       },
     },
@@ -119,7 +119,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.amphiaraus-light.text',
-          'selfAssured',
+          'lifeAwesome',
         ),
       },
     },
@@ -127,7 +127,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.amphiaraus-dark.text',
-          'selfAssured',
+          'lifeAwesome',
         ),
       },
     },
@@ -135,7 +135,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.styx-light.text',
-          'selfAssured',
+          'lifeAwesome',
         ),
       },
     },
@@ -143,7 +143,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.styx-dark.text',
-          'selfAssured',
+          'lifeAwesome',
         ),
       },
     },
@@ -151,7 +151,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.thanatos-light.text',
-          'selfAssured',
+          'lifeAwesome',
         ),
       },
     },
@@ -159,7 +159,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.thanatos-dark.text',
-          'selfAssured',
+          'lifeAwesome',
         ),
       },
     },
@@ -167,7 +167,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.hades-light.text',
-          'selfAssured',
+          'lifeAwesome',
         ),
       },
     },
@@ -175,7 +175,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.hades-dark.text',
-          'selfAssured',
+          'lifeAwesome',
         ),
       },
     },
@@ -183,7 +183,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.asphodel-light.text',
-          'selfAssured',
+          'lifeAwesome',
         ),
       },
     },
@@ -191,7 +191,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.asphodel-dark.text',
-          'selfAssured',
+          'lifeAwesome',
         ),
       },
     },

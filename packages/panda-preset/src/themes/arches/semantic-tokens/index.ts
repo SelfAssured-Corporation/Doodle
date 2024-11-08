@@ -1,5 +1,5 @@
 /**
- * This module contains all the semantic tokens for the SelfAssured theme.
+ * This module contains all the semantic tokens for the Arches theme.
  * @module
  */
 

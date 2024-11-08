@@ -1,5 +1,5 @@
 {
-  "name": "@cerberus/styled-system",
+  "name": "@doodleui/styled-system",
   "version": "0.0.0",
   "exports": {
     "./css": "./css/index.mjs",

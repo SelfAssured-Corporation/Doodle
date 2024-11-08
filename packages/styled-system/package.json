@@ -1,7 +1,7 @@
 {
-  "name": "@cerberus-design/styled-system",
+  "name": "@doodleui/styled-system",
   "version": "0.0.0",
-  "description": "Cerberus Design System Panda-CSS styled-system.",
+  "description": "DoodleUI Design System Panda-CSS styled-system.",
   "type": "module",
   "browserslist": "> 0.25%, not dead",
   "sideEffects": false,
@@ -48,7 +48,7 @@
     "react-dom": "*"
   },
   "devDependencies": {
-    "@cerberus-design/panda-preset": "workspace:*",
+    "@doodleui/panda-preset": "workspace:*",
     "@pandacss/dev": "^0.47.0",
     "@pandacss/preset-panda": "^0.47.0",
     "@pandacss/types": "^0.47.0",

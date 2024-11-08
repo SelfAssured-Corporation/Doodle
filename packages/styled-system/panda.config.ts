@@ -1,14 +1,14 @@
 import { defineConfig } from '@pandacss/dev'
 import pandaPreset from '@pandacss/preset-panda'
-import { cerberusPreset, cerberusConfig } from '@cerberus-design/panda-preset'
+import { doodleUIPreset, doodleUIConfig } from '@doodleui/panda-preset'
 
 export default defineConfig({
-  ...cerberusConfig,
+  ...doodleUIConfig,
 
   exclude: [],
   outdir: '.',
 
   clean: true,
 
-  presets: [pandaPreset, cerberusPreset],
+  presets: [pandaPreset, doodleUIPreset],
 })

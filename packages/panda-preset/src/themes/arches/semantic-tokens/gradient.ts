@@ -1,5 +1,5 @@
 /**
- * This module is a collection of gradient tokens palette for the acheron theme.
+ * This module is a collection of gradient tokens palette for the arches theme.
  * @module gradientTokens
  */
 
@@ -87,7 +87,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.charon-light.text',
-          'acheron',
+          'arches',
         ),
       },
     },
@@ -95,25 +95,25 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.charon-dark.text',
-          'acheron',
+          'arches',
         ),
       },
     },
     'nyx-light': {
       text: {
-        initial: formatSemanticTokenValue('gradient.nyx-light.text', 'acheron'),
+        initial: formatSemanticTokenValue('gradient.nyx-light.text', 'arches'),
       },
     },
     'nyx-dark': {
       text: {
-        initial: formatSemanticTokenValue('gradient.nyx-dark.text', 'acheron'),
+        initial: formatSemanticTokenValue('gradient.nyx-dark.text', 'arches'),
       },
     },
     'amphiaraus-light': {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.amphiaraus-light.text',
-          'acheron',
+          'arches',
         ),
       },
     },
@@ -121,28 +121,25 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.amphiaraus-dark.text',
-          'acheron',
+          'arches',
         ),
       },
     },
     'styx-light': {
       text: {
-        initial: formatSemanticTokenValue(
-          'gradient.styx-light.text',
-          'acheron',
-        ),
+        initial: formatSemanticTokenValue('gradient.styx-light.text', 'arches'),
       },
     },
     'styx-dark': {
       text: {
-        initial: formatSemanticTokenValue('gradient.styx-dark.text', 'acheron'),
+        initial: formatSemanticTokenValue('gradient.styx-dark.text', 'arches'),
       },
     },
     'thanatos-light': {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.thanatos-light.text',
-          'acheron',
+          'arches',
         ),
       },
     },
@@ -150,7 +147,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.thanatos-dark.text',
-          'acheron',
+          'arches',
         ),
       },
     },
@@ -158,23 +155,20 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.hades-light.text',
-          'acheron',
+          'arches',
         ),
       },
     },
     'hades-dark': {
       text: {
-        initial: formatSemanticTokenValue(
-          'gradient.hades-dark.text',
-          'acheron',
-        ),
+        initial: formatSemanticTokenValue('gradient.hades-dark.text', 'arches'),
       },
     },
     'asphodel-light': {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.asphodel-light.text',
-          'acheron',
+          'arches',
         ),
       },
     },
@@ -182,7 +176,7 @@ export const gradientTokens: GradientTokens = {
       text: {
         initial: formatSemanticTokenValue(
           'gradient.asphodel-dark.text',
-          'acheron',
+          'arches',
         ),
       },
     },

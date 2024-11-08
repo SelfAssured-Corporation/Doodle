@@ -104,66 +104,60 @@ export const secondaryActionTokens: SecondaryActionTokens = {
     bg: {
       initial: formatSemanticTokenValue(
         'background.secondary-action.initial',
-        'selfAssured',
+        'arches',
       ),
       hover: formatSemanticTokenValue(
         'background.secondary-action.hover',
-        'selfAssured',
+        'arches',
       ),
       active: formatSemanticTokenValue(
         'background.secondary-action.active',
-        'selfAssured',
+        'arches',
       ),
     },
 
     border: {
       initial: formatSemanticTokenValue(
         'border.secondary-action.initial',
-        'selfAssured',
+        'arches',
       ),
-      100: formatSemanticTokenValue(
-        'border.secondary-action.100',
-        'selfAssured',
-      ),
+      100: formatSemanticTokenValue('border.secondary-action.100', 'arches'),
     },
 
     ghost: {
       initial: formatSemanticTokenValue(
         'ghost.secondary-action.initial',
-        'selfAssured',
+        'arches',
       ),
-      hover: formatSemanticTokenValue(
-        'ghost.secondary-action.hover',
-        'selfAssured',
-      ),
+      hover: formatSemanticTokenValue('ghost.secondary-action.hover', 'arches'),
       active: formatSemanticTokenValue(
         'ghost.secondary-action.active',
-        'selfAssured',
+        'arches',
       ),
     },
 
     navigation: {
       initial: formatSemanticTokenValue(
         'text.secondary-action.navigation.initial',
-        'selfAssured',
+        'arches',
       ),
       hover: formatSemanticTokenValue('text.secondary-action.navigation.hover'),
       visited: formatSemanticTokenValue(
         'text.secondary-action.navigation.visited',
-        'selfAssured',
+        'arches',
       ),
     },
 
     text: {
       initial: formatSemanticTokenValue(
         'text.secondary-action.initial',
-        'selfAssured',
+        'arches',
       ),
-      100: formatSemanticTokenValue('text.secondary-action.100', 'selfAssured'),
-      200: formatSemanticTokenValue('text.secondary-action.200', 'selfAssured'),
+      100: formatSemanticTokenValue('text.secondary-action.100', 'arches'),
+      200: formatSemanticTokenValue('text.secondary-action.200', 'arches'),
       static: formatSemanticTokenValue(
         'text.secondary-action.static',
-        'selfAssured',
+        'arches',
       ),
     },
   },

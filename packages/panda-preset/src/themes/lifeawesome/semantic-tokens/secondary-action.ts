@@ -104,63 +104,66 @@ export const secondaryActionTokens: SecondaryActionTokens = {
     bg: {
       initial: formatSemanticTokenValue(
         'background.secondary-action.initial',
-        'acheron',
+        'lifeAwesome',
       ),
       hover: formatSemanticTokenValue(
         'background.secondary-action.hover',
-        'acheron',
+        'lifeAwesome',
       ),
       active: formatSemanticTokenValue(
         'background.secondary-action.active',
-        'acheron',
+        'lifeAwesome',
       ),
     },
 
     border: {
       initial: formatSemanticTokenValue(
         'border.secondary-action.initial',
-        'acheron',
+        'lifeAwesome',
       ),
-      100: formatSemanticTokenValue('border.secondary-action.100', 'acheron'),
+      100: formatSemanticTokenValue(
+        'border.secondary-action.100',
+        'lifeAwesome',
+      ),
     },
 
     ghost: {
       initial: formatSemanticTokenValue(
         'ghost.secondary-action.initial',
-        'acheron',
+        'lifeAwesome',
       ),
       hover: formatSemanticTokenValue(
         'ghost.secondary-action.hover',
-        'acheron',
+        'lifeAwesome',
       ),
       active: formatSemanticTokenValue(
         'ghost.secondary-action.active',
-        'acheron',
+        'lifeAwesome',
       ),
     },
 
     navigation: {
       initial: formatSemanticTokenValue(
         'text.secondary-action.navigation.initial',
-        'acheron',
+        'lifeAwesome',
       ),
       hover: formatSemanticTokenValue('text.secondary-action.navigation.hover'),
       visited: formatSemanticTokenValue(
         'text.secondary-action.navigation.visited',
-        'acheron',
+        'lifeAwesome',
       ),
     },
 
     text: {
       initial: formatSemanticTokenValue(
         'text.secondary-action.initial',
-        'acheron',
+        'lifeAwesome',
       ),
-      100: formatSemanticTokenValue('text.secondary-action.100', 'acheron'),
-      200: formatSemanticTokenValue('text.secondary-action.200', 'acheron'),
+      100: formatSemanticTokenValue('text.secondary-action.100', 'lifeAwesome'),
+      200: formatSemanticTokenValue('text.secondary-action.200', 'lifeAwesome'),
       static: formatSemanticTokenValue(
         'text.secondary-action.static',
-        'acheron',
+        'lifeAwesome',
       ),
     },
   },

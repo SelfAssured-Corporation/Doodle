@@ -10,7 +10,7 @@ import { gradientTokens } from './gradient'
 import { dataVizTokens } from './data-viz'
 
 /**
- * This module contains the configuration for the semantic tokens of the selfAssured theme.
+ * This module contains the configuration for the semantic tokens of the arches theme.
  * @module
  */
 

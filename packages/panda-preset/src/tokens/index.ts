@@ -1,10 +1,12 @@
 import primitiveColors from './data/primitive-colors.base.json' with { type: 'json' }
 import semanticColorsDark from './data/semantic-colors.cerberus-dark-mode.json' with { type: 'json' }
 import semanticColorsLight from './data/semantic-colors.cerberus-light-mode.json' with { type: 'json' }
-import acheronDarkMode from './data/semantic-colors.acheron-dark-mode.json' with { type: 'json' }
-import acheronLightMode from './data/semantic-colors.acheron-light-mode.json' with { type: 'json' }
+import archesDarkMode from './data/semantic-colors.arches-dark-mode.json' with { type: 'json' }
+import archesLightMode from './data/semantic-colors.arches-light-mode.json' with { type: 'json' }
 import selfAssuredDarkMode from './data/semantic-colors.selfassured-dark-mode.json' with { type: 'json' }
 import selfAssuredLightMode from './data/semantic-colors.selfassured-light-mode.json' with { type: 'json' }
+import lifeAwesomeDarkMode from './data/semantic-colors.lifeawesome-dark-mode.json' with { type: 'json' }
+import lifeAwesomeLightMode from './data/semantic-colors.lifeawesome-light-mode.json' with { type: 'json' }
 import type { RawThemes, SemanticToken, Token } from '../theme'
 
 /**
@@ -41,42 +43,62 @@ export const darkTokens = semanticColorsDark
 export const lightTokens = semanticColorsLight
 
 // additional themes
-export const acheronDarkTokens = acheronDarkMode
-export const acheronLightTokens = acheronLightMode
+export const archesDarkTokens = archesDarkMode
+export const archesLightTokens = archesLightMode
 
 // additional themes
 export const selfAssuredDarkTokens = selfAssuredDarkMode
 export const selfAssuredLightTokens = selfAssuredLightMode
 
+// additional themes
+export const lifeAwesomeDarkTokens = lifeAwesomeDarkMode
+export const lifeAwesomeLightTokens = lifeAwesomeLightMode
+
 export const themeTokens = {
-  cerberus: {
+  doodleui: {
     dark: darkTokens,
     light: lightTokens,
   },
-  doodle: {
-    dark: darkTokens,
-    light: lightTokens,
-  },
-  acheron: {
-    dark: acheronDarkTokens,
-    light: acheronLightTokens,
+  arches: {
+    dark: archesDarkTokens,
+    light: archesLightTokens,
   },
   selfAssured: {
     dark: selfAssuredDarkTokens,
     light: selfAssuredLightTokens,
   },
+  lifeAwesome: {
+    dark: lifeAwesomeDarkTokens,
+    light: lifeAwesomeLightTokens,
+  },
 }
 
 export const themeGradients = {
-  acheron: {
+  arches: {
     dark: {
-      ...acheronDarkTokens.gradient,
+      ...archesDarkTokens.gradient,
     },
     light: {
-      ...acheronLightTokens.gradient,
+      ...archesLightTokens.gradient,
     },
   },
-  cerberus: {
+  lifeAwesome: {
+    dark: {
+      ...lifeAwesomeDarkTokens.gradient,
+    },
+    light: {
+      ...lifeAwesomeLightTokens.gradient,
+    },
+  },
+  selfAssured: {
+    dark: {
+      ...selfAssuredDarkTokens.gradient,
+    },
+    light: {
+      ...selfAssuredLightTokens.gradient,
+    },
+  },
+  doodleui: {
     dark: {
       ...darkTokens.gradient,
     },
@@ -146,8 +168,13 @@ export interface PandaGradientValue {
 
 export function formatPrimitiveColors(): PandaColor {
   // primitive colors includes "spacing"
-  const { acheron, cerberus } = primitiveColors
-  const onlyThemePrimitiveColors = { acheron, cerberus }
+  const { arches, cerberus, lifeawesome, selfassured } = primitiveColors
+  const onlyThemePrimitiveColors = {
+    arches,
+    cerberus,
+    lifeawesome,
+    selfassured,
+  }
 
   // format the primitive colors to match the Panda CSS format
   return Object.entries(onlyThemePrimitiveColors).reduce(
@@ -173,8 +200,13 @@ export function formatPrimitiveColors(): PandaColor {
 
 export function formatPrimitiveGradients(): PandaGradient {
   // gradient tokens are nested in the semantic-tokens
-  const { acheron, cerberus } = themeGradients
-  const onlyThemePrimitiveGradients = { acheron, cerberus }
+  const { arches, doodleui, selfAssured, lifeAwesome } = themeGradients
+  const onlyThemePrimitiveGradients = {
+    arches,
+    doodleui,
+    selfAssured,
+    lifeAwesome,
+  }
 
   // format the primitive colors to match the Panda CSS format
   return Object.entries(onlyThemePrimitiveGradients).reduce(
@@ -229,7 +261,7 @@ export function formatSemanticTokenValue(
 ): SemanticToken {
   return {
     description: getNestedProperty(
-      themeTokens.doodle,
+      themeTokens.doodleui,
       `dark.${path}.$description`,
     ),
     value: getThemeTokenByPath(path, theme),
@@ -264,7 +296,7 @@ function getThemeSelector(
   lightPath: string,
   theme?: RawThemes,
 ): Token {
-  const themeKey = theme ?? 'cerberus'
+  const themeKey = theme ?? 'doodleui'
   const darkToken = getSemanticToken(
     getNestedProperty(themeTokens[themeKey], darkPath),
   )
@@ -282,8 +314,10 @@ function getThemeSelector(
 }
 
 export type TokenObj =
-  | (typeof themeTokens)['acheron']
-  | (typeof themeTokens)['cerberus']
+  | (typeof themeTokens)['arches']
+  | (typeof themeTokens)['doodleui']
+  | (typeof themeTokens)['lifeAwesome']
+  | (typeof themeTokens)['selfAssured']
 
 /**
  * This function returns the value of a nested property from an Object.

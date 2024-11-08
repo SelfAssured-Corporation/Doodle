@@ -7,7 +7,7 @@ import { semanticTokens } from './semantic-tokens/config'
  * @module
  */
 
-export const acheronTheme = defineTheme({
+export const lifeAwesomeTheme = defineTheme({
   ...baseTheme,
   semanticTokens,
 })

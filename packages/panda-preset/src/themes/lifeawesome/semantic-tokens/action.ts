@@ -99,48 +99,48 @@ export const actionTokens: ActionTokens = {
     bg: {
       initial: formatSemanticTokenValue(
         'background.action.initial',
-        'selfAssured',
+        'lifeAwesome',
       ),
-      hover: formatSemanticTokenValue('background.action.hover', 'selfAssured'),
+      hover: formatSemanticTokenValue('background.action.hover', 'lifeAwesome'),
       active: formatSemanticTokenValue(
         'background.action.active',
-        'selfAssured',
+        'lifeAwesome',
       ),
     },
 
     border: {
-      initial: formatSemanticTokenValue('border.action.initial', 'selfAssured'),
-      100: formatSemanticTokenValue('border.action.100', 'selfAssured'),
-      focus: formatSemanticTokenValue('border.action.focus', 'selfAssured'),
+      initial: formatSemanticTokenValue('border.action.initial', 'lifeAwesome'),
+      100: formatSemanticTokenValue('border.action.100', 'lifeAwesome'),
+      focus: formatSemanticTokenValue('border.action.focus', 'lifeAwesome'),
     },
 
     ghost: {
-      initial: formatSemanticTokenValue('ghost.action.initial', 'selfAssured'),
-      hover: formatSemanticTokenValue('ghost.action.hover', 'selfAssured'),
-      active: formatSemanticTokenValue('ghost.action.active', 'selfAssured'),
+      initial: formatSemanticTokenValue('ghost.action.initial', 'lifeAwesome'),
+      hover: formatSemanticTokenValue('ghost.action.hover', 'lifeAwesome'),
+      active: formatSemanticTokenValue('ghost.action.active', 'lifeAwesome'),
     },
 
     navigation: {
       initial: formatSemanticTokenValue(
         'text.action.navigation.initial',
-        'selfAssured',
+        'lifeAwesome',
       ),
       hover: formatSemanticTokenValue(
         'text.action.navigation.hover',
-        'selfAssured',
+        'lifeAwesome',
       ),
       visited: formatSemanticTokenValue(
         'text.action.navigation.visited',
-        'selfAssured',
+        'lifeAwesome',
       ),
     },
 
     text: {
-      initial: formatSemanticTokenValue('text.action.initial', 'selfAssured'),
-      100: formatSemanticTokenValue('text.action.100', 'selfAssured'),
-      200: formatSemanticTokenValue('text.action.200', 'selfAssured'),
-      inverse: formatSemanticTokenValue('text.action.inverse', 'selfAssured'),
-      static: formatSemanticTokenValue('text.action.static', 'selfAssured'),
+      initial: formatSemanticTokenValue('text.action.initial', 'lifeAwesome'),
+      100: formatSemanticTokenValue('text.action.100', 'lifeAwesome'),
+      200: formatSemanticTokenValue('text.action.200', 'lifeAwesome'),
+      inverse: formatSemanticTokenValue('text.action.inverse', 'lifeAwesome'),
+      static: formatSemanticTokenValue('text.action.static', 'lifeAwesome'),
     },
   },
 }

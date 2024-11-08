@@ -97,36 +97,48 @@ export interface SuccessTokens {
 export const successTokens: SuccessTokens = {
   success: {
     border: {
-      initial: formatSemanticTokenValue('border.success.initial', 'acheron'),
+      initial: formatSemanticTokenValue(
+        'border.success.initial',
+        'lifeAwesome',
+      ),
     },
 
     bg: {
       initial: formatSemanticTokenValue(
         'background.success.initial',
-        'acheron',
+        'lifeAwesome',
       ),
-      hover: formatSemanticTokenValue('background.success.hover', 'acheron'),
-      active: formatSemanticTokenValue('background.success.active', 'acheron'),
+      hover: formatSemanticTokenValue(
+        'background.success.hover',
+        'lifeAwesome',
+      ),
+      active: formatSemanticTokenValue(
+        'background.success.active',
+        'lifeAwesome',
+      ),
     },
 
     ghost: {
-      initial: formatSemanticTokenValue('ghost.success.initial', 'acheron'),
-      hover: formatSemanticTokenValue('ghost.success.hover', 'acheron'),
-      active: formatSemanticTokenValue('ghost.success.active', 'acheron'),
+      initial: formatSemanticTokenValue('ghost.success.initial', 'lifeAwesome'),
+      hover: formatSemanticTokenValue('ghost.success.hover', 'lifeAwesome'),
+      active: formatSemanticTokenValue('ghost.success.active', 'lifeAwesome'),
     },
 
     surface: {
-      initial: formatSemanticTokenValue('surface.success.initial', 'acheron'),
-      100: formatSemanticTokenValue('surface.success.100', 'acheron'),
-      200: formatSemanticTokenValue('surface.success.200', 'acheron'),
+      initial: formatSemanticTokenValue(
+        'surface.success.initial',
+        'lifeAwesome',
+      ),
+      100: formatSemanticTokenValue('surface.success.100', 'lifeAwesome'),
+      200: formatSemanticTokenValue('surface.success.200', 'lifeAwesome'),
     },
 
     text: {
-      initial: formatSemanticTokenValue('text.success.initial', 'acheron'),
-      100: formatSemanticTokenValue('text.success.100', 'acheron'),
-      200: formatSemanticTokenValue('text.success.200', 'acheron'),
-      inverse: formatSemanticTokenValue('text.success.inverse', 'acheron'),
-      static: formatSemanticTokenValue('text.success.static', 'acheron'),
+      initial: formatSemanticTokenValue('text.success.initial', 'lifeAwesome'),
+      100: formatSemanticTokenValue('text.success.100', 'lifeAwesome'),
+      200: formatSemanticTokenValue('text.success.200', 'lifeAwesome'),
+      inverse: formatSemanticTokenValue('text.success.inverse', 'lifeAwesome'),
+      static: formatSemanticTokenValue('text.success.static', 'lifeAwesome'),
     },
   },
 }

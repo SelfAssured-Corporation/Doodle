@@ -3,11 +3,11 @@ import { defineTheme } from '../../theme-contract'
 import { semanticTokens } from './semantic-tokens/config'
 
 /**
- * This module contains the SelfAssured theme and configuration options.
+ * This module contains the Acheron theme and configuration options.
  * @module
  */
 
-export const selfAssuredTheme = defineTheme({
+export const archesTheme = defineTheme({
   ...baseTheme,
   semanticTokens,
 })

@@ -99,32 +99,32 @@ export interface InfoTokens {
 export const infoTokens: InfoTokens = {
   info: {
     border: {
-      initial: formatSemanticTokenValue('border.info.initial', 'acheron'),
+      initial: formatSemanticTokenValue('border.info.initial', 'arches'),
     },
 
     bg: {
-      initial: formatSemanticTokenValue('background.info.initial', 'acheron'),
-      hover: formatSemanticTokenValue('background.info.hover', 'acheron'),
-      active: formatSemanticTokenValue('background.info.active', 'acheron'),
+      initial: formatSemanticTokenValue('background.info.initial', 'arches'),
+      hover: formatSemanticTokenValue('background.info.hover', 'arches'),
+      active: formatSemanticTokenValue('background.info.active', 'arches'),
     },
 
     ghost: {
-      initial: formatSemanticTokenValue('ghost.info.initial', 'acheron'),
-      hover: formatSemanticTokenValue('ghost.info.hover', 'acheron'),
-      active: formatSemanticTokenValue('ghost.info.active', 'acheron'),
+      initial: formatSemanticTokenValue('ghost.info.initial', 'arches'),
+      hover: formatSemanticTokenValue('ghost.info.hover', 'arches'),
+      active: formatSemanticTokenValue('ghost.info.active', 'arches'),
     },
 
     surface: {
-      initial: formatSemanticTokenValue('surface.info.initial', 'acheron'),
-      100: formatSemanticTokenValue('surface.info.100', 'acheron'),
-      200: formatSemanticTokenValue('surface.info.200', 'acheron'),
+      initial: formatSemanticTokenValue('surface.info.initial', 'arches'),
+      100: formatSemanticTokenValue('surface.info.100', 'arches'),
+      200: formatSemanticTokenValue('surface.info.200', 'arches'),
     },
 
     text: {
-      initial: formatSemanticTokenValue('text.info.initial', 'acheron'),
-      100: formatSemanticTokenValue('text.info.100', 'acheron'),
-      200: formatSemanticTokenValue('text.info.200', 'acheron'),
-      static: formatSemanticTokenValue('text.info.static', 'acheron'),
+      initial: formatSemanticTokenValue('text.info.initial', 'arches'),
+      100: formatSemanticTokenValue('text.info.100', 'arches'),
+      200: formatSemanticTokenValue('text.info.200', 'arches'),
+      static: formatSemanticTokenValue('text.info.static', 'arches'),
     },
   },
 }

@@ -100,33 +100,33 @@ export interface DangerTokens {
 export const dangerTokens: DangerTokens = {
   danger: {
     bg: {
-      initial: formatSemanticTokenValue('background.danger.initial', 'acheron'),
-      hover: formatSemanticTokenValue('background.danger.hover', 'acheron'),
-      active: formatSemanticTokenValue('background.danger.active', 'acheron'),
+      initial: formatSemanticTokenValue('background.danger.initial', 'arches'),
+      hover: formatSemanticTokenValue('background.danger.hover', 'arches'),
+      active: formatSemanticTokenValue('background.danger.active', 'arches'),
     },
 
     border: {
-      initial: formatSemanticTokenValue('border.danger.initial', 'acheron'),
+      initial: formatSemanticTokenValue('border.danger.initial', 'arches'),
     },
 
     ghost: {
-      initial: formatSemanticTokenValue('ghost.danger.initial', 'acheron'),
-      hover: formatSemanticTokenValue('ghost.danger.hover', 'acheron'),
-      active: formatSemanticTokenValue('ghost.danger.active', 'acheron'),
+      initial: formatSemanticTokenValue('ghost.danger.initial', 'arches'),
+      hover: formatSemanticTokenValue('ghost.danger.hover', 'arches'),
+      active: formatSemanticTokenValue('ghost.danger.active', 'arches'),
     },
 
     surface: {
-      initial: formatSemanticTokenValue('surface.danger.initial', 'acheron'),
-      100: formatSemanticTokenValue('surface.danger.100', 'acheron'),
-      200: formatSemanticTokenValue('surface.danger.200', 'acheron'),
+      initial: formatSemanticTokenValue('surface.danger.initial', 'arches'),
+      100: formatSemanticTokenValue('surface.danger.100', 'arches'),
+      200: formatSemanticTokenValue('surface.danger.200', 'arches'),
     },
 
     text: {
-      initial: formatSemanticTokenValue('text.danger.initial', 'acheron'),
-      100: formatSemanticTokenValue('text.danger.100', 'acheron'),
-      200: formatSemanticTokenValue('text.danger.200', 'acheron'),
-      inverse: formatSemanticTokenValue('text.danger.inverse', 'acheron'),
-      static: formatSemanticTokenValue('text.danger.static', 'acheron'),
+      initial: formatSemanticTokenValue('text.danger.initial', 'arches'),
+      100: formatSemanticTokenValue('text.danger.100', 'arches'),
+      200: formatSemanticTokenValue('text.danger.200', 'arches'),
+      inverse: formatSemanticTokenValue('text.danger.inverse', 'arches'),
+      static: formatSemanticTokenValue('text.danger.static', 'arches'),
     },
   },
 }

@@ -1,12 +1,22 @@
 {
   "cerberusTheme": "'[data-panda-theme=cerberus]'",
-  "acheronTheme": "'[data-panda-theme=acheron]'",
+  "archesTheme": "'[data-panda-theme=arches]'",
+  "selfAssuredTheme": "'[data-panda-theme=selfassured]'",
+  "lifeAwesomeTheme": "'[data-panda-theme=lifeawesome]'",
 
   "darkToken": "gradients.cerberus.dark",
   "lightToken": "gradients.cerberus.light",
   "textToken": "",
 
-  "acheronDarkToken": "gradients.acheron.dark",
-  "acheronLightToken": "gradients.acheron.light",
-  "acheronTextToken": ""
+  "archesDarkToken": "gradients.arches.dark",
+  "archesLightToken": "gradients.arches.light",
+  "archesTextToken": "",
+
+  "lifeAwesomeDarkToken": "gradients.lifeawesome.dark",
+  "lifeAwesomeLightToken": "gradients.lifeawesome.light",
+  "lifeAwesomeTextToken": "",
+
+  "selfAssuredDarkToken": "gradients.selfassured.dark",
+  "selfAssuredLightToken": "gradients.selfassured.light",
+  "selfAssuredTextToken": ""
 }

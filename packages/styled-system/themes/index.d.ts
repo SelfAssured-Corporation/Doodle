@@ -1,19 +1,24 @@
 /* eslint-disable */
-export type ThemeName = 'cerberus' | 'acheron' | 'selfassured'
+export type ThemeName = 'doodleui' | 'arches' | 'selfassured' | 'lifeawesome'
 export type ThemeByName = {
-  cerberus: {
+  doodleui: {
     id: string
-    name: 'cerberus'
+    name: 'doodleui'
     css: string
   }
-  acheron: {
+  arches: {
     id: string
-    name: 'acheron'
+    name: 'arches'
     css: string
   }
   selfassured: {
     id: string
     name: 'selfassured'
+    css: string
+  }
+  lifeawesome: {
+    id: string
+    name: 'lifeawesome'
     css: string
   }
 }
