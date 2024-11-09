@@ -13,15 +13,15 @@ pnpm add -D @doodleui/panda-preset
 ```typescript
 import { defineConfig } from '@pandacss/dev'
 import pandaPreset from '@pandacss/preset-panda'
-import { cerberusPreset, cerberusConfig } from '@doodleui/panda-preset'
+import { doodleUIPreset, doodleUIConfig } from '@doodleui/panda-preset'
 
 export default defineConfig({
-  ...cerberusConfig,
+  ...doodleUIConfig,
 
   include: ['./src/**/*.{ts,tsx,js,jsx}'],
   exclude: [],
 
-  presets: [pandaPreset, cerberusPreset],
+  presets: [pandaPreset, doodleUIPreset],
 })
 ```
 

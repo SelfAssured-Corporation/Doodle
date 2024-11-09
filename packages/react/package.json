@@ -1,7 +1,7 @@
 {
-  "name": "@cerberus-design/react",
+  "name": "@doodleui/react",
   "version": "0.0.0",
-  "description": "The Cerberus Design React component library.",
+  "description": "The Doodle UI React component library.",
   "browserslist": "> 0.25%, not dead",
   "sideEffects": false,
   "type": "module",
@@ -13,9 +13,9 @@
     "lint:ts": "tsc --project tsconfig.lint.json --noEmit"
   },
   "peerDependencies": {
-    "@cerberus/icons": "npm:@jsr/cerberus__icons",
-    "@cerberus/panda-preset": "npm:@jsr/cerberus__panda-preset",
-    "@cerberus/styled-system": "npm:@cerberus-design/styled-system",
+    "@doodleui/icons": "npm:@jsr/doodleui__icons",
+    "@doodleui/panda-preset": "npm:@jsr/doodleui__panda-preset",
+    "@doodleui/styled-system": "npm:@doodleui/styled-system",
     "@pandacss/dev": "*",
     "react": "*",
     "react-dom": "*"
@@ -24,8 +24,8 @@
     "@dnd-kit/core": "^6.1.0"
   },
   "devDependencies": {
-    "@cerberus-design/configs": "workspace:*",
-    "@cerberus-design/styled-system": "workspace:*",
+    "@doodleui/configs": "workspace:*",
+    "@doodleui/styled-system": "workspace:*",
     "@microsoft/api-extractor": "^7.46.2",
     "@types/react": "^18",
     "@types/react-dom": "^18",
